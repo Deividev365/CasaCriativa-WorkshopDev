@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="pt-br"> 
+
+    	<head>
+			<meta charset="utf-8"> 
+			{%block title %}
+					<title>Casa Criativa by Deivid ❤</title>
+			{% endblock %}
+
+            {% include "head.html" %}
+            
+		</head>
+
+		<body id="{{bodyId}}">
+
+			<div id="container">
+				
+				{%block content %}
+				{% endblock %}
+						
+		</div>
+
+		<!--Esse modal é meu formulário-->
+		{% include "modal.html" %}
+
+			
+			<script src="/scripts.js"></script>
+		</body>
+
+</html>
